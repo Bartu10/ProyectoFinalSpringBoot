@@ -1,7 +1,7 @@
 package com.example.proyectofinalspringboot.Controller;
 
 import com.example.proyectofinalspringboot.Repositories.ProductRepository;
-import com.example.proyectofinalspringboot.models.Product;
+import com.example.proyectofinalspringboot.Models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
+@RestController
 public class ProductController {
     @Autowired
     ProductRepository productRepository;
