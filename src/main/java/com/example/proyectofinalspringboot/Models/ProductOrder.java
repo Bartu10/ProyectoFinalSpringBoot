@@ -18,6 +18,8 @@ public class ProductOrder {
     @ManyToOne
     private Product product;
 
+    private Number Int;
+
     public ProductOrder(){}
 
     public ProductOrder(Order order, Product product){
